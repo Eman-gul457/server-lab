@@ -1,33 +1,31 @@
-# 🚀 Basic Projects – System Admin & Scripting Lab  
 
-**Purpose:** Prove knowledge of **System Administration**, **Scripting**, **Docker**, and **CI basics** in just **1 week**.  
+<h1 align="center">🚀 Basic Projects – System Admin & Scripting Lab</h1>
 
----
-
-## 📌 Project Overview  
-
-### 🔹 Linux + Windows Server Lab (1 Week)
-Build two VMs (Linux + Windows) showing basic admin tasks and IIS setup with SSL.  
-
-**Steps Completed:**  
-- 🖥️ **Create VMs** → (VirtualBox/VMware locally OR AWS/Azure/GCP free tier)  
-- 🐧 **Linux** → Created user, set up **Nginx**, hosted a simple **Flask app**  
-- 🪟 **Windows** → Installed **IIS**, hosted same app (or static site)  
-- 🔐 **SSL** → Configured self-signed certificates + bindings in IIS & Nginx  
-- ⚙️ **Scripts**:  
-  - Bash → Update + restart service on Linux  
-  - PowerShell → Create local user + restart IIS  
-- 📖 **Runbook** → Documented restart/patch procedures  
+<p align="center">
+  <em>Proving my skills in <b>System Administration</b>, <b>Scripting</b>, <b>Docker</b>, and <b>CI basics</b> — all in just 1 week ⚡</em>
+</p>
 
 ---
 
-## 🛠️ Tools & Technologies  
+## 📌 Project Goals  
+- 🖥️ Build **two VMs (Linux + Windows)** locally (VirtualBox/VMware) or cloud (AWS/Azure/GCP free tier).  
+- 🐧 Linux: Create user, set up **Nginx**, host a simple **Flask app**.  
+- 🪟 Windows: Install **IIS**, host same app (or static site).  
+- 🔐 Configure **self-signed SSL** (cert binding in IIS + Nginx).  
+- ⚙️ Write automation scripts:  
+  - **Bash** → Update + restart service (Linux).  
+  - **PowerShell** → Create local user + restart IIS.  
+- 📖 Document restart & patching procedures.  
 
-<p>
+---
+
+## 🛠️ Tech Stack  
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=linux,windows,nginx,flask,python,bash,powershell,docker,git,github" />
 </p>
 
 ---
 
-## 📂 Project Structure  
+## 📂 Repository Structure  
 

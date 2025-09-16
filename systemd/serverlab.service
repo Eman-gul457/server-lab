@@ -1,0 +1,16 @@
+[Unit]
+Description=Gunicorn instance to serve ServerLab Flask app
+After=network.target
+
+[Service]
+User=projectuser
+Group=www-data
+WorkingDirectory=/home/projectuser/server-lab
+Environment="PATH=/home/projectuser/server-lab/venv/bin"
+ExecStart=/home/projectuser/server-lab/venv/bin/gunicorn --workers 2 --bind 127.0.0.1:8000 wsgi:app
+Restart=always
+RestartSec=5
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

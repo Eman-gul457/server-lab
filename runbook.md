@@ -1,12 +1,25 @@
 # ServerLab Runbook
 
-This document explains how to operate and maintain the Linux + Windows lab environment.
+This runbook documents how to build, run, and maintain the **ServerLab** project.  
+It demonstrates Linux + Windows server basics, Flask app hosting, Gunicorn, Nginx reverse proxy, systemd services, and IIS setup.
 
 ---
 
-## 1. Linux (Flask + Nginx + Gunicorn)
+## 1. Linux (Kali VM) — Flask + Gunicorn + Nginx
 
-### Restart Services
+### Start/Stop Service
 ```bash
+# Reload systemd config if needed
+sudo systemctl daemon-reload
+
+# Start service
+sudo systemctl start serverlab
+
+# Stop service
+sudo systemctl stop serverlab
+
+# Restart service
 sudo systemctl restart serverlab
-sudo systemctl restart nginx
+
+# Check service status
+sudo systemctl status serverlab
